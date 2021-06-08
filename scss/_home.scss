@@ -1,0 +1,29 @@
+/*FORMATO GENERAL*/
+
+body{
+    width: auto;
+    height: auto;
+}
+
+/*FORMATO DEL TEXTO PRINCIPAL DEBAJO DE LA FOTO*/
+
+.container-home{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/*FORMATO DE LAS TARJETAS DE SERVICIOS*/
+
+.home-servicios{
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 2% 5% 2%;
+}
+
+.btn-verde{
+    background-color: $verde;
+    color: white;
+}

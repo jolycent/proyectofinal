@@ -1,0 +1,61 @@
+/*Variables de Colores Principales*/
+/*SCSS*/
+.bg-black {
+  background-color: #000000; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; }
+
+h1 {
+  font-size: 182%;
+  /* equivale a 24px */ }
+
+h2 {
+  font-size: 167%;
+  /* equivale a 22px */ }
+
+h3 {
+  font-size: 153.9%;
+  /* equivale a 20px */ }
+
+h4 {
+  font-size: 123.1%;
+  /* equivale a 16px */ }
+
+h5 {
+  font-size: 107.7%;
+  /* equivale a 14px */
+  font-weight: 300; }
+
+p {
+  font-size: 92.3%;
+  /* equivale a 12px */ }
+
+a {
+  font-size: 84.6%;
+  /* equivale a 11px */ }
+
+/*FORMATO GENERAL*/
+body {
+  width: auto;
+  height: auto; }
+
+/*FORMATO DEL TEXTO PRINCIPAL DEBAJO DE LA FOTO*/
+.container-home {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center; }
+
+/*FORMATO DE LAS TARJETAS DE SERVICIOS*/
+.home-servicios {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 2% 5% 2%; }
+
+.btn-verde {
+  background-color: #054538;
+  color: white; }
