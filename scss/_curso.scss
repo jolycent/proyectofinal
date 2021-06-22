@@ -1,10 +1,14 @@
 /*FORMATO DEL TEXTO PRINCIPAL DEBAJO DE LA FOTO*/
 
 .container-curso{
-    padding: 8% 10% 15% 10%;
+    padding: 2% 10% 2% 10%;
     text-align: center;
 }
 
-/*FORMATO DE LA FOTO*/
+.d-grid{
+    padding: 0% 0% 50px 0%;
+}
 
-
+$accordion-color: red;
+$accordion-bg: red;
+$accordion-border-color: red;
