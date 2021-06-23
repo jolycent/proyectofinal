@@ -49,6 +49,11 @@ button:hover {
 .fotoCurso {
   padding: 0% 0% 5% 0%; }
 
+.botonContacto {
+  display: flex;
+  margin: 0% 2% 5% 2%;
+  justify-content: center; }
+
 /* Responsive */
 @media screen and (max-width: 600px) {
   .grid-container {
