@@ -20,7 +20,44 @@ button:hover {
   text-align: center; }
 
 .d-grid {
-  padding: 0% 0% 50px 0%; }
+  padding: 0% 0% 2% 0%; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 2%; }
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: justify;
+  margin: 10%; }
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: justify;
+  margin: 10% 10% 20% 10%;
+  border: solid 1px #cccaca; }
+
+.fotoCurso2 {
+  width: 100%;
+  padding: 10% 0% 10% 0%; }
+
+.fotoCurso {
+  padding: 0% 0% 5% 0%; }
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%; }
+  .fotoCurso {
+    width: 150%; } }
 
 * {
   margin: 0;
@@ -45,8 +82,7 @@ h4 {
 
 h5 {
   font-size: 107.7%;
-  /* equivale a 14px */
-  font-weight: 300; }
+  /* equivale a 14px */ }
 
 p {
   font-size: 92.3%;
@@ -151,19 +187,31 @@ input[type=submit]:hover {
 /* Formato de las columnas */
 .column_1 {
   float: left;
-  width: 30%;
+  width: 40%;
   padding: 0px 20px 40px 20px; }
 
 .column_2 {
   float: left;
-  width: 70%;
+  width: 60%;
   padding: 0px 20px 40px 20px; }
+
+.fotoContacto {
+  width: 100%; }
 
 /* Responsive */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0; } }
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column; }
+  .column_1 {
+    width: 100%; }
+  .column_2 {
+    width: 100%; } }
 
 .home-cuenta {
   display: flex;

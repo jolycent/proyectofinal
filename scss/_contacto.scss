@@ -29,16 +29,19 @@
   /* Formato de las columnas */
   .column_1 {
     float: left;
-    width: 30%;
+    width: 40%;
     padding: 0px 20px 40px 20px;
   }
   
   .column_2 {
     float: left;
-    width: 70%;
+    width: 60%;
     padding: 0px 20px 40px 20px;
   }
   
+  .fotoContacto{
+    width:100%;
+  }
 
   /* Responsive */
   @media screen and (max-width: 600px) {
@@ -46,4 +49,22 @@
       width: 100%;
       margin-top: 0;
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .column_1{
+      width: 100%;
+    }
+  
+    .column_2{
+      width: 100%;
+    }
+  
+
+
   }
