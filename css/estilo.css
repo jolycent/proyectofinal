@@ -97,6 +97,10 @@ a {
   font-size: 92.3%;
   /* equivale a 11px */ }
 
+.copete {
+  font-size: 107.7%;
+  /* equivale a 16px */ }
+
 /*FORMATO GENERAL*/
 body {
   width: auto;
